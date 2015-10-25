@@ -1,0 +1,10 @@
+-
+  name: pushups
+  min: 10
+  max: 15
+  unit: repetitions
+-
+  name: wall sit
+  min: 20
+  max: 40
+  unit: seconds
