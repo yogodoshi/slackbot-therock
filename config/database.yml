@@ -6,14 +6,13 @@ defaults: &defaults
   password: <%= ENV['DATABASE_PASSWORD'] %>
   database: <%= ENV['DATABASE_NAME'] %>
 
-production:
-  <<: *defaults
-
 development:
   <<: *defaults
+  database: <%= ENV['DATABASE_NAME'] + '_development' %>
 
 test:
   <<: *defaults
+  database: <%= ENV['DATABASE_NAME'] + '_test' %>
 
 staging:
   <<: *defaults
