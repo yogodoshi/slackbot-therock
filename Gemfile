@@ -10,6 +10,7 @@ gem 'json',                         '1.8.3'
 gem 'napa',                         '0.5.0'
 gem 'roar',                         '~> 0.12.0'
 gem 'grape-swagger',                '0.8.0'
+gem 'slack-ruby-client',            '0.3.1'
 
 group :development,:test do
   gem 'pry',                        '0.10.3'
